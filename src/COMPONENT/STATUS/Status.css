@@ -1,0 +1,38 @@
+
+
+.div_1_child{
+    color:#fff;
+    
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+  
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+
+  }
+  .div_header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .value{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .value>.value_figure{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+  }

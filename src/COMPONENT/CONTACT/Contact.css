@@ -1,0 +1,35 @@
+.candidate_list{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color:#202020 ;
+
+    padding-top: 30px;
+}
+
+.contact_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+}
+.contact_name >.MuiSvgIcon-root{
+    color:#fff
+}
+.contact_name>h4{
+    margin-left: 5px;
+    color:#fff;
+    font-weight: 300;
+}
+.contact_name{
+    display: flex;
+}
+
+.contact_button{
+    border: 1px solid white;
+}
+.message,.call{
+    color:#fff;
+}
+.contact_list >h4{
+    color:#fff
+}

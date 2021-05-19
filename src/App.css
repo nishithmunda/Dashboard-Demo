@@ -1,0 +1,205 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.app{
+  width: 100%;
+  height: 99.9vh;
+  background-color: #1e2025;
+
+  display: grid;
+  grid-template-rows:100% ;
+  grid-template-columns:6% 94%;
+}
+
+.app__body{
+
+  display:grid;
+  grid-template-rows: 12% 88%;
+}
+.app__body__header{
+ padding: 10px 25px; 
+}
+
+.app__body__content{
+
+  display: grid;
+  grid-template-columns: 75% 25%;
+
+}
+
+.app__body__content__data{
+  padding: 20px;
+  display: grid;
+ 
+  grid-template-rows: 1.5fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap:25px;
+
+}
+
+
+.app__body__content__data>.div_1,.div_2,.div_3,.div_4,.div_5,.div_6,.div_7{
+  border:0.5px solid #838486;
+  border-radius:10px ;
+  transition: all 0.3s;
+}
+
+.app__body__content__data > .div1,.div_2,.div_3{
+   
+}
+
+.app__body__content__data >.div_1:hover,.div_2:hover,.div_3:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.app__body__content__data > .div_1:hover{
+  background-color:#9871ef ;
+}
+.app__body__content__data > .div_2:hover{
+  background-color:#2d9cfc ;
+}
+.app__body__content__data > .div_3:hover{
+  background-color:#fb515f;
+}
+
+
+.app__body__content__data > .div_4{
+  padding: 15px;
+  grid-row:2/3;
+  grid-column: 1/3;
+  
+  display: grid;
+  grid-template-rows:20% 80% ;
+}
+.div4__header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.div4__header>h6{
+  color:#fff
+}
+.div4__header>.MuiSvgIcon-root{
+  color:#fff
+}
+
+.app__body__content__data > .div_5{
+  padding: 15px;
+
+  grid-row:2/3;
+  grid-column: 3/4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.div5__header{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.app__body__content__data > .div_6{
+  padding: 15px;
+  grid-row:3/4;
+  grid-column: 1/3;
+
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+
+}
+.div6__header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.div6__header__right{
+ display: flex;
+}
+.div6__header__right__info>:nth-child(1){
+  color:#f55556
+}
+.div6__header__right__info>:nth-child(2){
+  color:#fff
+}
+
+.div6__header__right>.MuiSvgIcon-root{
+  transform: rotate(-40deg);
+  margin:0 10px;
+  color:#f55556
+}
+
+.app__body__content__data > .div_7{
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows:20% 80% ;
+}
+.div7__header{
+  display: flex;
+  justify-content: space-between;
+}
+.div7__header>.MuiSvgIcon-root{
+  color:#fff
+}
+.div7__graph{
+  
+}
+.app__body__content__contact{
+  padding: 20px;
+}
+
+
+.app__menu{
+  /* border:1px solid #fff */
+}
+
+
+
+
+
+
+
+.referal_container{
+  padding:5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.referal_button{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.referal_button>button{
+  padding: 10px 20px;
+  border-width: 0;
+
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+
+  min-width: 150px;
+}
+.referal_button>:nth-child(1){
+  background-color:#2d9cfc ;
+}
+.referal_button>:nth-child(2){
+  background-color:#ff5260 ;
+}
