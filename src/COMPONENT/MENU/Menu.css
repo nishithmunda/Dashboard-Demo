@@ -40,7 +40,15 @@
 
 .logo{
    margin:10px 0 40px 0; 
-   color:#fff
+   color:#111;
+   transform: rotate(20deg);
+   padding: 1px;
+   background-color: rgb(209, 209, 209);
+   border-radius: 50%;
+}
+.logo:hover{
+    background-color: #fff;
+    cursor:pointer;
 }
 
 .menu__option{

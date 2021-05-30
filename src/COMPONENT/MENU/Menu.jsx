@@ -18,7 +18,7 @@ function Menu(){
             <div className='menu__function'>
             <div className='menu__function__main'>
                <div className='menu__option menu__option--active'>
-                 <HomeIcon/>
+                <HomeIcon/>
                </div> 
                <div className='menu__option '>
                <AssessmentIcon/>
